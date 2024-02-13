@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>English Institute</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <img src="images/LogoOnly.jpg" alt="logoimage" width="50px">
+        <div class="logo"><!--this div is being used to keep the display:flex;
+            justify-content:space-between; in css to work-->
+        </div>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line 1"></div>
+                <div class="line 2"></div>
+                <div class="line 3"></div>
+            </div>
+    </nav>
+
+    <section id="home">
+        <h2>Bienvenido</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+              <div class="carousel-item"><img src="images/nws1.jpg" alt="Image 1" class="carousel-img"></div>
+              <div class="carousel-item"><img src="images/nws2.jpg" alt="Image 2" class="carousel-img"></div>
+              <div class="carousel-item"><img src="images/nws3.jpg" alt="Image 3" class="carousel-img"></div>
+              <div class="carousel-item"><img src="images/nws4.jpg" alt="Image 4" class="carousel-img"></div>
+              <div class="carousel-item"><img src="images/nws5.jpg" alt="Image 5" class="carousel-img"></div>
+            </div>
+              <button class="carousel-btn prev-btn" onclick="prevSlide()">❮</button>
+              <button class="carousel-btn next-btn" onclick="nextSlide()">❯</button>
+              <!-- Add more items as needed -->
+        <!-- Add additional content as needed -->
+    </section>
+
+    <br>
+
+    <section id="courses">
+        <h1>Nuestros Cursos!</h1>
+        <br>
+        <div>
+            <h2>Talleres Interactivos</h2>
+            <p>Sumérgete en el mundo del inglés a través de nuestros talleres temáticos diseñados para hacer que el aprendizaje sea divertido y emocionante para todas las edades.</p>
+        </div>
+
+        <br>
+
+        <div>
+            <h2>Paquetes de Aprendizaje Familiar</h2>
+            <p>¡Aprender inglés nunca ha sido tan divertido en familia! Pregunta por nuestras tarifas con descuento para familias que deseen embarcarse en esta emocionante aventura lingüística juntas.</p>
+        </div>
+
+        <br>
+
+        <h2>Cursos de verano y cursos intensivos</h2>
+        <p>Aprovecha al máximo tus vacaciones escolares con nuestros cursos intensivos de verano. Desde actividades al aire libre hasta sesiones de inmersión lingüística, tenemos algo emocionante para todos.</p>
+        <!-- Add course details here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contactanos</h2>
+        <br>
+        <ol>
+            <li><p>Tel: 771 465 1992</p></li>
+            <li><p>Correo Electrónico</p></li>
+            <li><p>Dirección</p></li>
+        </ol>
+
+        <br>
+        <!-- Add a registration and contact form -->
+        <div class="map">
+         <a href="https://www.google.com/maps/place/Instituto+de+lenguas+extranjeras+Alone/@19.840914,-98.9796371,19.29z/data=!4m15!1m8!3m7!1s0x85d191981f35c67b:0x1b3f0169da7404df!2sHimno+Nacional+7,+Centro,+43800+Tizayuca,+Hgo.!3b1!8m2!3d19.8407339!4d-98.9793799!16s%2Fg%2F11cp9swbwh!3m5!1s0x85d19171de6309d5:0xfaca66663ae05a48!8m2!3d19.8407713!4d-98.9795525!16s%2Fg%2F11sz65ysxp?entry=ttu"><img src="images/location.jpg"></a>
+        </div>
+    </section>
+
+    <br>
+
+    <footer>
+        <p>&copy; 2024 Alone Institue. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
